@@ -1,4 +1,3 @@
-use Prep
 -- Inserting values into Employee
 insert into Employee
 values
@@ -26,3 +25,4 @@ values
 (5,'Ballaire'),
 (5,'Sugarland'),
 (5,'Houston');
+
