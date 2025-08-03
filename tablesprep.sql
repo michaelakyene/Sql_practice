@@ -1,4 +1,3 @@
-use Prep
 -- Table for Employee table
 create table Employee(
 Fname nvarchar(50),
@@ -27,3 +26,4 @@ Dlocation nvarchar(50),
 primary key(Dnumber,Dlocation),
 foreign key (Dnumber) references Department(Dnumber)
 );
+
